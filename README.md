@@ -6,4 +6,4 @@
 - 📫 How to reach me: www.Mithileshdev.co
 ![title-pic](https://github.com/kingsmen732/kingsmen732/blob/main/demo.png)
 
-![Alt](https://repobeats.axiom.co/api/embed/2668adfb57e9266c0e4cac1c299fce950732516e.svg "Repobeats analytics image")
+[![An image of @kingsmen732's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kingsmen732)](https://holopin.io/@kingsmen732)

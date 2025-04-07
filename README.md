@@ -1,6 +1,3 @@
-# Hello, I'm Mithilesh 👋
-# ⚙️Building bleeding-edge tech in the lab before it's mainstream.
----
 
 ### 📊 GitHub Metrics
 

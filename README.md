@@ -1,10 +1,5 @@
 # Hello, I'm Mithilesh 👋
-
-- 🔭 I’m currently working on AIML, Cyber wing, IOT based OpenSource dev 
-- 🌱 I’m currently into Deeptech R&D✨
-- 💬 Feel free to learn new technology 
-- 📫 How to reach me: www.kingsmen732.github.io
-
+⚙️ Building bleeding-edge tech in the lab before it's mainstream.
 ---
 
 ### 📊 GitHub Metrics

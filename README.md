@@ -9,7 +9,7 @@
 
 ### 📊 GitHub Metrics
 
-![Metrics](https://github.com/kingsmen732/kingsmen732/blob/generated/metrics.svg)
+![Metrics](https://github.com/kingsmen732/kingsmen732/blob/generated/github-metrics.svg)
 
 ---
 

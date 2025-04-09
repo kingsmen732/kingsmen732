@@ -1,7 +1,8 @@
 
 ### 📊 GitHub Metrics
 
-![Metrics](https://github.com/kingsmen732/kingsmen732/blob/main/github-metrics.svg)
+![Metrics](https://github.com/kingsmen732/kingsmen732/blob/main/github-metrics.svg) ![Lysia ASCII](assets/lysia_ascii.gif)
+
 
 ---
 

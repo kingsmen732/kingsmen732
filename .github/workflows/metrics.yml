@@ -14,6 +14,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -37,7 +40,6 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
-
 
           # Habits
           plugin_habits: yes

@@ -1,10 +1,11 @@
 
 ### 📊 GitHub Metrics
 
-![Metrics](https://github.com/kingsmen732/kingsmen732/blob/main/github-metrics.svg) ![Lysia ASCII](https://tenor.com/view/lysia-lysia-ascii-lysia-logo-lysia-gif-doch-x-gif-20040308)
+![Metrics](https://github.com/kingsmen732/kingsmen732/blob/main/github-metrics.svg) ![Lysia ASCII](assets/lysia_ascii.gif)
 
 
 ---
+
 
 ### 🏅 My Holopin Badge Wall
 

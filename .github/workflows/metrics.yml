@@ -1,11 +1,9 @@
 name: Metrics
 on:
-  # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
   workflow_dispatch:
-  # (optional) Run workflow when pushing on main
   push: {branches: ["main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -13,15 +11,17 @@ jobs:
       name: production
     permissions:
       contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Ensure full git history
 
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Options
           user: Kingsmen732
           template: classic
           base: header, activity, community, repositories, metadata
@@ -87,6 +87,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add assets/lysia_ascii.gif
-          git commit -m "🎞️ Update Lysia ASCII GIF"
-          git push || echo "No changes to commit"
+          git pull origin main
+          git add -f assets/lysia_ascii.gif
+          git commit -m "🎞️ Update Lysia ASCII GIF" || echo "No changes to commit"
+          git push origin main

@@ -1,6 +1,9 @@
 
 ### 📊 GitHub Metrics
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mitumithilf" data-color="#3ebe5e" data-emoji="👾"  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-yellow.png)](https://www.buymeacoffee.com/mitumithilf)
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-yellow.png)](https://www.buymeacoffee.com/mitumithilf)
+
+
 ![Metrics](https://github.com/kingsmen732/kingsmen732/blob/main/github-metrics.svg) ![Lysia ASCII](assets/lysia_ascii.gif)
 
 

@@ -31,7 +31,7 @@ jobs:
           user: Kingsmen732
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Kolkata  # Correct format for Chennai time
+          config_timezone: Asia/Kolkata  # Chennai/India timezone
 
           # Achievements
           plugin_achievements: no
@@ -39,7 +39,7 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
 
-          # Activity (fixed)
+          # Activity
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, release, review, comment
@@ -47,7 +47,7 @@ jobs:
           plugin_activity_load: 300
           plugin_activity_visibility: all
 
-          # Habits (fixed)
+          # Habits
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
@@ -84,16 +84,16 @@ jobs:
           # Traffic
           plugin_traffic: yes
 
-      - name: Download Lysia ASCII GIF
-        run: |
-          mkdir -p assets
-          curl -L "https://media.tenor.com/g58NwNDNNkQAAAAC/lysia-lysia-ascii.gif" -o assets/lysia_ascii.gif
+          # 🌍 Stargazers World Map
+          plugin_stargazers: yes
+          plugin_stargazers_charts: no
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+          plugin_stargazers_worldmap_sample: 200
 
-      - name: Commit and Push GIF
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git pull origin main
-          git add -f assets/lysia_ascii.gif
-          git commit -m "🎞️ Update Lysia ASCII GIF" || echo "No changes to commit"
-          git push origin main
+          # 🏷️ Labels (Topics)
+          plugin_topics: yes
+          plugin_topics_limit: 12
+
+          # 🧩 Icons (Topics in Icon Mode)
+          plugin_topics_mode: icons
